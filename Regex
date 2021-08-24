@@ -1,0 +1,4 @@
+(?=abc) -> captura essa expressao depois q a expressao principal foi validada (executa depois da principal).
+(?!abc) -> nao captura essa expressao depois q a expressao principal foi validada (executa depois da principal).
+
+((?=[a-zA-Z0-9]*\d)(?=[a-zA-Z0-9]*[a-z])(?=[a-zA-Z0-9]*[A-Z]))([a-zA-Z0-9]+)-> Deve, ao menos, conter 1 [0-9] e 1 [A-Z] e 1 [a-z]
